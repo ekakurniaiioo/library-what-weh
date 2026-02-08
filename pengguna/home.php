@@ -41,7 +41,7 @@ JOIN buku ON buku.id_penulis = penulis.id_penulis"
 
         <!-- Sidebar -->
         <aside class="w-64 bg-white border-r px-6 py-6 sticky top-0 h-screen">
-            <h1 class="text-xl font-bold mb-8 p-6">Pustaka What Weh</h1>
+            <img src="../uploads/pustaka-logo.png" class="w-32 h-28 ml-9 mb-8">
 
             <div class="mb-8">
                 <p class="text-xs font-semibold text-gray-400 uppercase mb-3 tracking-wide">
@@ -222,7 +222,7 @@ JOIN buku ON buku.id_penulis = penulis.id_penulis"
 
             <!-- Rekomedasi -->
             <section class="mb-14">
-                <h2 class="text-3xl font-bold">Pilihan Buku Terbaik Untukmu</h2>
+                <h2 class="text-3xl font-bold">Rekomendasi Buku Untukmu</h2>
                 <p class="text-gray-500 mb-6">Literasi Bersama</p>
 
                 <div class="grid grid-cols-6 gap-6">
