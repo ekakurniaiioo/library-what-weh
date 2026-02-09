@@ -174,9 +174,10 @@ JOIN buku ON buku.id_penulis = penulis.id_penulis"
 
                     <div class="flex items-center gap-3">
                         <?php if (isset($_SESSION['user_id'])): ?>
-                            <div class="flex items-center gap-3">
-                                <div class="relative flex items-center bg-gray-100 hover:bg-gray-200 p-2 rounded-full gap-2 cursor-pointer"
-                                    id="avatarBtn">
+                            <div class="flex items-center gap-4">
+
+                            <div class="relative flex items-center bg-gray-100 hover:bg-gray-200 p-2 rounded-full gap-2 cursor-pointer" id="avatarBtn">
+
                                     <img src="../uploads/profile/<?= $_SESSION['avatar'] ?? 'user.jpg'; ?>"
                                         class="w-10 h-10 rounded-full object-cover border">
 
@@ -244,7 +245,7 @@ JOIN buku ON buku.id_penulis = penulis.id_penulis"
             </div>
 
             <!-- Detail Buku -->
-            <h2 class="text-3xl font-bold">Detail Buku</h2>
+            <h2 class="text-4xl font-bold">Detail Buku</h2>
             <div class="max-w-5xl mx-auto px-6 py-10">
                 <div class="relative">
 
